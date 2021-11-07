@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3A639427374BFE005291BF /* CryptoSwift-main in Resources */ = {isa = PBXBuildFile; fileRef = AC3A639627374BFE005291BF /* CryptoSwift-main */; };
+		AC3A639927374C0C005291BF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC3A639827374C0C005291BF /* CryptoSwift */; };
+		BE1C8E4827323953003A1EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C8E4727323953003A1EBB /* AppDelegate.swift */; };
+		BE1C8E4A27323955003A1EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1C8E4927323955003A1EBB /* Assets.xcassets */; };
+		BE1C8E5827323955003A1EBB /* PamUIHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C8E5727323955003A1EBB /* PamUIHelperTests.swift */; };
+		BE1C8E6227323955003A1EBB /* PamUIHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C8E6127323955003A1EBB /* PamUIHelperUITests.swift */; };
+		BE1C8E6427323955003A1EBB /* PamUIHelperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C8E6327323955003A1EBB /* PamUIHelperUITestsLaunchTests.swift */; };
+		BE1C8E7127323999003A1EBB /* SignIn.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1C8E7027323999003A1EBB /* SignIn.xib */; };
+		BE1C8E7427323A30003A1EBB /* NoLoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C8E7227323A30003A1EBB /* NoLoWindow.swift */; };
+		BE1C8E7527323A30003A1EBB /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1C8E7327323A30003A1EBB /* SignIn.swift */; };
+		BEEA6F4E2734A9B8002B29E1 /* LoginMultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA6F4D2734A9B8002B29E1 /* LoginMultipeerSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1C8E5427323955003A1EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1C8E3C27323953003A1EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1C8E4327323953003A1EBB;
+			remoteInfo = PamUIHelper;
+		};
+		BE1C8E5E27323955003A1EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1C8E3C27323953003A1EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1C8E4327323953003A1EBB;
+			remoteInfo = PamUIHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3A639527374BFE005291BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base; path = "Base.lproj/CryptoSwift-main"; sourceTree = "<group>"; };
+		BE1C8E4427323953003A1EBB /* PamUIHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PamUIHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1C8E4727323953003A1EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1C8E4927323955003A1EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1C8E4E27323955003A1EBB /* PamUIHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PamUIHelper.entitlements; sourceTree = "<group>"; };
+		BE1C8E5327323955003A1EBB /* PamUIHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PamUIHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1C8E5727323955003A1EBB /* PamUIHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PamUIHelperTests.swift; sourceTree = "<group>"; };
+		BE1C8E5D27323955003A1EBB /* PamUIHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PamUIHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1C8E6127323955003A1EBB /* PamUIHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PamUIHelperUITests.swift; sourceTree = "<group>"; };
+		BE1C8E6327323955003A1EBB /* PamUIHelperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PamUIHelperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BE1C8E7027323999003A1EBB /* SignIn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignIn.xib; sourceTree = "<group>"; };
+		BE1C8E7227323A30003A1EBB /* NoLoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoLoWindow.swift; sourceTree = "<group>"; };
+		BE1C8E7327323A30003A1EBB /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		BE436B342734765600EE7724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BE4A2DAB2733D1CD0060C7B8 /* PamUIHelperRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PamUIHelperRelease.entitlements; sourceTree = "<group>"; };
+		BEEA6F4D2734A9B8002B29E1 /* LoginMultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMultipeerSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1C8E4127323953003A1EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3A639927374C0C005291BF /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1C8E5027323955003A1EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1C8E5A27323955003A1EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3A638B27374B28005291BF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				AC3A639627374BFE005291BF /* CryptoSwift-main */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		AC3A639727374C0C005291BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1C8E3B27323953003A1EBB = {
+			isa = PBXGroup;
+			children = (
+				AC3A638B27374B28005291BF /* Packages */,
+				BE1C8E4627323953003A1EBB /* PamUIHelper */,
+				BE1C8E5627323955003A1EBB /* PamUIHelperTests */,
+				BE1C8E6027323955003A1EBB /* PamUIHelperUITests */,
+				BE1C8E4527323953003A1EBB /* Products */,
+				AC3A639727374C0C005291BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1C8E4527323953003A1EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1C8E4427323953003A1EBB /* PamUIHelper.app */,
+				BE1C8E5327323955003A1EBB /* PamUIHelperTests.xctest */,
+				BE1C8E5D27323955003A1EBB /* PamUIHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1C8E4627323953003A1EBB /* PamUIHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BEEA6F4D2734A9B8002B29E1 /* LoginMultipeerSession.swift */,
+				BE436B342734765600EE7724 /* Info.plist */,
+				BE4A2DAB2733D1CD0060C7B8 /* PamUIHelperRelease.entitlements */,
+				BE1C8E4727323953003A1EBB /* AppDelegate.swift */,
+				BE1C8E7227323A30003A1EBB /* NoLoWindow.swift */,
+				BE1C8E7327323A30003A1EBB /* SignIn.swift */,
+				BE1C8E7027323999003A1EBB /* SignIn.xib */,
+				BE1C8E4927323955003A1EBB /* Assets.xcassets */,
+				BE1C8E4E27323955003A1EBB /* PamUIHelper.entitlements */,
+			);
+			path = PamUIHelper;
+			sourceTree = "<group>";
+		};
+		BE1C8E5627323955003A1EBB /* PamUIHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1C8E5727323955003A1EBB /* PamUIHelperTests.swift */,
+			);
+			path = PamUIHelperTests;
+			sourceTree = "<group>";
+		};
+		BE1C8E6027323955003A1EBB /* PamUIHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1C8E6127323955003A1EBB /* PamUIHelperUITests.swift */,
+				BE1C8E6327323955003A1EBB /* PamUIHelperUITestsLaunchTests.swift */,
+			);
+			path = PamUIHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1C8E4327323953003A1EBB /* PamUIHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1C8E6727323955003A1EBB /* Build configuration list for PBXNativeTarget "PamUIHelper" */;
+			buildPhases = (
+				BE1C8E4027323953003A1EBB /* Sources */,
+				BE1C8E4127323953003A1EBB /* Frameworks */,
+				BE1C8E4227323953003A1EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PamUIHelper;
+			packageProductDependencies = (
+				AC3A639827374C0C005291BF /* CryptoSwift */,
+			);
+			productName = PamUIHelper;
+			productReference = BE1C8E4427323953003A1EBB /* PamUIHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1C8E5227323955003A1EBB /* PamUIHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1C8E6A27323955003A1EBB /* Build configuration list for PBXNativeTarget "PamUIHelperTests" */;
+			buildPhases = (
+				BE1C8E4F27323955003A1EBB /* Sources */,
+				BE1C8E5027323955003A1EBB /* Frameworks */,
+				BE1C8E5127323955003A1EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1C8E5527323955003A1EBB /* PBXTargetDependency */,
+			);
+			name = PamUIHelperTests;
+			productName = PamUIHelperTests;
+			productReference = BE1C8E5327323955003A1EBB /* PamUIHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE1C8E5C27323955003A1EBB /* PamUIHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1C8E6D27323955003A1EBB /* Build configuration list for PBXNativeTarget "PamUIHelperUITests" */;
+			buildPhases = (
+				BE1C8E5927323955003A1EBB /* Sources */,
+				BE1C8E5A27323955003A1EBB /* Frameworks */,
+				BE1C8E5B27323955003A1EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1C8E5F27323955003A1EBB /* PBXTargetDependency */,
+			);
+			name = PamUIHelperUITests;
+			productName = PamUIHelperUITests;
+			productReference = BE1C8E5D27323955003A1EBB /* PamUIHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1C8E3C27323953003A1EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BE1C8E4327323953003A1EBB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BE1C8E5227323955003A1EBB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BE1C8E4327323953003A1EBB;
+					};
+					BE1C8E5C27323955003A1EBB = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BE1C8E4327323953003A1EBB;
+					};
+				};
+			};
+			buildConfigurationList = BE1C8E3F27323953003A1EBB /* Build configuration list for PBXProject "PamUIHelper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1C8E3B27323953003A1EBB;
+			productRefGroup = BE1C8E4527323953003A1EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1C8E4327323953003A1EBB /* PamUIHelper */,
+				BE1C8E5227323955003A1EBB /* PamUIHelperTests */,
+				BE1C8E5C27323955003A1EBB /* PamUIHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1C8E4227323953003A1EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1C8E4A27323955003A1EBB /* Assets.xcassets in Resources */,
+				BE1C8E7127323999003A1EBB /* SignIn.xib in Resources */,
+				AC3A639427374BFE005291BF /* CryptoSwift-main in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1C8E5127323955003A1EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1C8E5B27323955003A1EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1C8E4027323953003A1EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1C8E4827323953003A1EBB /* AppDelegate.swift in Sources */,
+				BE1C8E7527323A30003A1EBB /* SignIn.swift in Sources */,
+				BEEA6F4E2734A9B8002B29E1 /* LoginMultipeerSession.swift in Sources */,
+				BE1C8E7427323A30003A1EBB /* NoLoWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1C8E4F27323955003A1EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1C8E5827323955003A1EBB /* PamUIHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1C8E5927323955003A1EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1C8E6227323955003A1EBB /* PamUIHelperUITests.swift in Sources */,
+				BE1C8E6427323955003A1EBB /* PamUIHelperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1C8E5527323955003A1EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1C8E4327323953003A1EBB /* PamUIHelper */;
+			targetProxy = BE1C8E5427323955003A1EBB /* PBXContainerItemProxy */;
+		};
+		BE1C8E5F27323955003A1EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1C8E4327323953003A1EBB /* PamUIHelper */;
+			targetProxy = BE1C8E5E27323955003A1EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC3A639627374BFE005291BF /* CryptoSwift-main */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3A639527374BFE005291BF /* Base */,
+			);
+			name = "CryptoSwift-main";
+			path = ../../../../Downloads;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1C8E6527323955003A1EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE1C8E6627323955003A1EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE1C8E6827323955003A1EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PamUIHelper/PamUIHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5NAHE6LA4T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PamUIHelper/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To login!";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = SignIn;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emphic.mblogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE1C8E6927323955003A1EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PamUIHelper/PamUIHelperRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 5NAHE6LA4T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PamUIHelper/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "To login!";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = SignIn;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emphic.mblogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE1C8E6B27323955003A1EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NAHE6LA4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emphic.PamUIHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PamUIHelper.app/Contents/MacOS/PamUIHelper";
+			};
+			name = Debug;
+		};
+		BE1C8E6C27323955003A1EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NAHE6LA4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emphic.PamUIHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PamUIHelper.app/Contents/MacOS/PamUIHelper";
+			};
+			name = Release;
+		};
+		BE1C8E6E27323955003A1EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NAHE6LA4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emphic.PamUIHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PamUIHelper;
+			};
+			name = Debug;
+		};
+		BE1C8E6F27323955003A1EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5NAHE6LA4T;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emphic.PamUIHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PamUIHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1C8E3F27323953003A1EBB /* Build configuration list for PBXProject "PamUIHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1C8E6527323955003A1EBB /* Debug */,
+				BE1C8E6627323955003A1EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1C8E6727323955003A1EBB /* Build configuration list for PBXNativeTarget "PamUIHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1C8E6827323955003A1EBB /* Debug */,
+				BE1C8E6927323955003A1EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1C8E6A27323955003A1EBB /* Build configuration list for PBXNativeTarget "PamUIHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1C8E6B27323955003A1EBB /* Debug */,
+				BE1C8E6C27323955003A1EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1C8E6D27323955003A1EBB /* Build configuration list for PBXNativeTarget "PamUIHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1C8E6E27323955003A1EBB /* Debug */,
+				BE1C8E6F27323955003A1EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC3A639827374C0C005291BF /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BE1C8E3C27323953003A1EBB /* Project object */;
+}
