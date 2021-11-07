@@ -30,3 +30,7 @@ All .so files for pam development on macos are for arm64.
 - Application could be called from within a loop, causing the login screen and authentication system to be called repeatedly.
 - Unwanted calls to the pam module has no mechanism for prevention.
 - No overall logging system within the pam module.
+
+# license note
+
+This software and intellecutal property cannot be sold. You may use it for your personal computer and modify it / do whatever you wish to do with the code. If you pass it on, all that is required is that you leave me in the comments (ryanfitzgerald).
