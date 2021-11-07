@@ -4,13 +4,11 @@ Custom MacBook login screen and pam modules using multipeer connectivity and usb
 
 //TODO:
 
-Actual Login Screen implementation (other than pam module for sudo, su, etc)
+//Actual Login Screen implementation (other than pam module for sudo, su, etc)
 
-Screensaver implementation
+//Screensaver implementation
 
-Better documentation
-
-
+//Better documentation
 
 The files are not commented very well, so I apologize for that.
 
