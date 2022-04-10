@@ -18,6 +18,8 @@ The files are not commented very well, so I apologize for that.
 
 All .so files for pam on macos are for arm64.
 
+Wrote this in about 3 days; originally tried a bluetooth only solution. That would be why you see Bluetooth everywhere.
+
 # features
 
 - uuid ("hardware") check for iPhone; must be plugged in to authenticate successfully. (optional)
