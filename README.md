@@ -16,7 +16,7 @@ Custom MacBook login screen and pam modules using multipeer connectivity and usb
 
 The files are not commented very well, so I apologize for that.
 
-All .so files for pam development on macos are for arm64.
+All .so files for pam on macos are for arm64.
 
 # features
 
