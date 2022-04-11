@@ -1,3 +1,7 @@
+# update coming soon
+
+new GUI with most todo's done & vulnerabilities fixed coming soon!
+
 # a_plus_plus
 
 Custom MacBook login screen and pam modules using multipeer connectivity and usb hardware checks with iOS app for sign in.
