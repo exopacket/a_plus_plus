@@ -25,7 +25,7 @@ Wrote this in about a week or so; originally tried a bluetooth only solution. Th
 # features
 
 - uuid ("hardware") check for iPhone; must be plugged in to authenticate successfully. (optional)
-- random pin that is encrypted & used for key generation on one device and decrypted on another using multipeer. The pin is never transferred via multipeer, rather verified by user input. Afterwards, the key generated is used to encrypt the payload going from the phone to the Mac.
+- random pin that is encrypted & used for key generation on one device and decrypted on another using multipeer. The pin is never transferred via multipeer, rather verified by user input through creating a unique service id on the mac and iphone. After succesfully connecting (and ultimately verifiying the PIN), the key generated is used to encrypt the payload going from the phone to the Mac.
 - 10 second delay to prevent unwanted authentication, brute force, and to notify the user of a login attempt.
 - app written in swift to control authentication, as well as full screen login screen that cannot be exited until delay is complete.
 
