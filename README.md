@@ -6,32 +6,34 @@ Custom MacBook login screen and pam modules using multipeer connectivity and usb
 
 //   shutdown, reboot, and sleep from login screen
 
-//   Actual Login Screen implementation (other than pam module for sudo, su, etc)
+//   Actual Login Screen implementation for loginwindow (other than pam module for sudo, su, etc)
 
 //   Screensaver implementation
 
 //   Better documentation
 
-//   Install script
+//   Multiple devices with matching keys
+
+//   Install script/Installer
 
 The files are not commented very well, so I apologize for that.
 
 All .so files for pam on macos are for arm64.
 
-Wrote this in about 3 days; originally tried a bluetooth only solution. That would be why you see Bluetooth everywhere.
+Wrote this in about a week or so; originally tried a bluetooth only solution. That would be why you see Bluetooth everywhere.
 
 # features
 
 - uuid ("hardware") check for iPhone; must be plugged in to authenticate successfully. (optional)
-- random pin that is encrypted & used for key generation on one device and decrypted on another using multipeer.
-- 10 second delay to prevent unwanted authentication (ex: a script) and to notify the user of a login attempt.
+- random pin that is encrypted & used for key generation on one device and decrypted on another using multipeer. The pin is never transferred via multipeer, rather verified by user input. Afterwards, the key generated is used to encrypt the payload going from the phone to the Mac.
+- 10 second delay to prevent unwanted authentication, brute force, and to notify the user of a login attempt.
 - app written in swift to control authentication, as well as full screen login screen that cannot be exited until delay is complete.
 
 # known vulnerabilities (unwanted features)
 
-- Application could be called from within a loop, causing the login screen and authentication system to be called repeatedly.
-- Unwanted calls to the pam module has no mechanism for prevention.
-- No overall logging system within the pam module.
+- Application could be called from within a loop causing the login screen and authentication system to be called repeatedly.
+- Unwanted calls to the pam module has no mechanism for prevention. (No macOS GUI verification)
+- No overall logging system within the pam module. Very important for tracking & tracing the unwanted calls.
 
 # license note
 
