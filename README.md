@@ -33,7 +33,7 @@ Wrote this in about a week or so; originally tried a bluetooth only solution. Th
 - 10 second delay to prevent unwanted authentication, brute force, and to notify the user of a login attempt.
 - app written in swift to control authentication, as well as full screen login screen that cannot be exited until delay is complete.
 
-# known vulnerabilities (unwanted features)
+# known vulnerabilities
 
 - Application could be called from within a loop causing the login screen and authentication system to be called repeatedly.
 - Unwanted calls to the pam module has no mechanism for prevention. (No macOS GUI verification)
